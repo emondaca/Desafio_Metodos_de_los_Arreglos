@@ -1,0 +1,58 @@
+#task-list {
+    display: flex;
+    width: 600px;
+    flex-flow: column nowrap;
+    align-content: flex-start;
+    align-items:flex-start;
+    background-color: rgb(234, 237, 247);
+    padding-left: 20px;
+    border: 3px solid black;
+}
+hr {
+    width: 560px;
+}
+
+#ingreso {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content:flex-start;
+}
+
+#nueva-tarea {
+    width: 460px;
+}
+#agregar-tarea {
+    background-color: darkgreen;
+    color: white;
+    height: 35px;
+    width: 85px;
+    border-radius: 6px;
+    font-size:large;
+}
+#tareas {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 40px;
+}
+
+#summary {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 120px;
+}
+
+#tabla {
+    width: 390px;
+}
+
+#id {
+    width: 140px;
+}
+
+#descrip {
+    width: 140px;
+}
